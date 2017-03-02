@@ -1,3 +1,4 @@
 {
-	"module": "mymodule"
+	"module": "mymodule",
+	"author": "John Doe"
 }
