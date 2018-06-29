@@ -12,6 +12,5 @@ setup(name="{{cookiecutter.module}}",
       tests_require=['pytest',
                      'pytest-cov',
                      'pytest-flake8',
-                     'hypothesis-pytest',
-                     'hypothesis'],
+                     ],
       packages=['{{cookiecutter.module}}'])

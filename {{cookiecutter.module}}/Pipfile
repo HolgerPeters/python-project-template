@@ -9,9 +9,8 @@ name = "pypi"
 pytest = "*"
 pytest-cov = "*"
 "pytest-flake8" = "*"
-hypothesis-pytest = "*"
-hypothesis = "*"
 sphinx = "*"
+pytest-runner = "*"
 
 [requires]
 python_version = "3.6"
