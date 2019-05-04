@@ -1,6 +1,6 @@
 
-{{cookiecutter.module}}
-=======================
+{{cookiecutter.distribution}}
+=============================
 
 .. toctree::
    :maxdepth: 2
