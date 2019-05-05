@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from pkg_resources import get_distribution
 
-release = get_distribution('{{cookiecutter.module }}').version
+release = get_distribution('{{cookiecutter.package}}').version
 version = '.'.join(release.split('.')[:2])
 
 extensions = ['sphinx.ext.mathjax']
@@ -13,8 +13,8 @@ source_suffix = '.rst'
 
 master_doc = 'index'
 
-project = '{{cookiecutter.module}}'
-copyright = '2017, {{cookiecutter.author}}'
+project = '{{cookiecutter.distribution}}'
+copyright = '2019, {{cookiecutter.author}}'
 author = '{{cookiecutter.author }}'
 language = None
 
@@ -28,7 +28,7 @@ todo_include_todos = False
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
-htmlhelp_basename = '{{cookiecutter.module}}doc'
+htmlhelp_basename = '{{cookiecutter.package}}doc'
 
 epub_title = project
 epub_author = author

@@ -1,4 +1,6 @@
 {
-	"module": "mymodule",
-	"author": "John Doe"
+	"package": "mypackage",
+	"distribution": "distribution",
+	"author": "John Doe",
+	"license": "All rights reserved"
 }
